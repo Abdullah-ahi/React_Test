@@ -1,0 +1,83 @@
+body {
+  background-color: darkgrey;
+}
+#app {
+  width: 40%;
+  margin: 0 auto;
+}
+.add-data-input {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.form {
+  display: none;
+}
+.visible {
+  display: block;
+  width: 80%;
+  margin: 30px auto 0;
+}
+.request-api-btn {
+  display: block;
+  width: 80%;
+  margin: 20px auto 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  box-sizing: border-box;
+  line-height: 16px;
+  transition: color 0.5s, background 0.5s;
+}
+.request-api-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.open-form-btn {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  box-sizing: border-box;
+  line-height: 16px;
+  transition: color 0.5s, background 0.5s;
+}
+.open-form-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.form-btn {
+  width: 50%;
+  line-height: 22px;
+  outline: none;
+  transition: color 0.5s, background 0.5s;
+}
+.form-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.data-list {
+  width: 80%;
+  margin: 0 auto 20px !important;
+  background-color: bisque;
+  border-radius: 10px;
+  height: 350px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.error {
+  color: red;
+  display: block;
+  text-align: center;
+}
